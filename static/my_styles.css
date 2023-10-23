@@ -1,0 +1,96 @@
+
+html, body {height:100%;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}
+
+h1 {
+    color: rgb(109, 51, 71);
+}
+
+button {
+  color: deeppink;
+  height: 40px;
+  width: 75px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  width: 36.6%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 2;
+  background-color: dodgerblue;
+  color:azure ;
+}
+
+p 
+{
+  color: deeppink;
+}
+
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+h1 {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  width: 36.6%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 2;
+  color: black;
+  background: rgb(0, 255, 221);
+}
+
+label {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  width: 20%;
+  font-size: larger;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 2;
+  color: black;
+  background: rgb(146, 173, 224);
+}
+
+a, input{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  width: 36.6%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 2;
+  color: black;
+  font-size: large;
+}
+
+a:link, a:visited, a:focus{
+  background: yellow;
+}
+
+a:hover {
+  background: rgb(255, 217, 0);
+}
+
+a:active {
+  background: rgb(157, 255, 0);
+  color: white;
+}

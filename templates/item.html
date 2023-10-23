@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/my_styles.css') }}" rel="stylesheet">
+
+    <script type="text/javascript" src="/scripts/my_scripts.js"></script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+</head>
+<body>
+    <h1>Item ID: {{ item_id }}</h1>
+    <h1> Q: {{ q }}</h1>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="reset()">RESET</button>
+    <input type="button" onclick="alert('Hello World!')" value="TRASH">
+    <p>Choose your favorite Web language:</p>
+
+    <form>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+    </form>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        
+        <ul>
+            <button type="button" onclick="get_from_input()">Go on</button>
+        </ul>
+
+        <ul style="color: darkgoldenrod;"> Your name: </ul>
+        <ul id="fname_out">^-^</ul>
+        <ul id="lname_out">!_!</ul>
+    </form>
+
+</body>
+</html>

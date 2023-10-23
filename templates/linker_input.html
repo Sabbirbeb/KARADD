@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Link setter</title>
+        <link href="{{ url_for('static', path='/my_styles.css') }}" rel="stylesheet">
+        <script type="text/javascript" src="/scripts/my_scripts.js"></script>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+    </head>
+    <body>
+        <ul><li><h1>LINKER</h1></li></ul>
+        <form>
+            <label for="fname">Input your link here and press button downside</label><br>
+            <p>(it have to start with http/s)</p>
+            <input type="text" id="urlToShorten" name="fname"><br>
+            <ul>
+                <button type="button" onclick="link_shorter_input()">Go on</button>
+            </ul>
+        </form>
+    </body>
+</html>

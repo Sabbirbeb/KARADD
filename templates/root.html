@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Root html</title>
+        <link href="{{ url_for('static', path='/my_styles.css') }}" rel="stylesheet">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+    </head>
+    <body>
+        <h2>LINKER | Make your link shorter</h2>
+        <ul><li><a href="/create_link">My Linker</a></li></ul>
+
+        <h2>Absolute URLs</h2>
+        <ul><li><a href="http://89.108.77.24:8080">89.108.77.24:8080</a></li></ul>
+        <ul><li><a href="https://www.ya.ru/">Ya</a></li></ul>
+        <ul><li><a href="https://t.me/gudymm">t.me</a></li></ul>
+
+        <h2>Relative URLs</h2>
+        <ul><li><a href="/main">Main</a></li></ul>
+        <ul><li><a href="/items/5?q=15">/items/ + path and query params</a></li></ul>
+        <ul><li><a href="/items/189">/items/ + path param</a></li></ul>
+
+        <h2>About me</h2>
+        <ul><li><a href="https://www.canva.com/design/DAFOXevJhyU/oyiS6vy9a9cjZAci7HOf_Q/view?utm_content=DAFOXevJhyU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Резюме (Нужен VPN&#128549;)</a></li></ul>
+    </body>
+</html>

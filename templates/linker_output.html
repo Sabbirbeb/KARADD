@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>LINKER</title>
+        <link href="{{ url_for('static', path='/my_styles.css') }}" rel="stylesheet">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+    </head>
+    <body>
+        <h2>Your link:</h2>
+        <ul><li><p> http://89.108.77.24:8080/link?link={{value}}</p></li></ul>
+        <ul><li><a href="/link?link={{value}}">CLICK TO OPEN LINK</a></li></ul>
+        <p>You can use this URL to access your file or folder on the server.<br/>
+        <ul><li><a href="/">Back to root page</a></li></ul>
+    </body>
+</html>
