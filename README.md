@@ -11,6 +11,10 @@ docker container rm mycontainer -f
 https://www.atlantic.net/dedicated-server-hosting/how-to-deploy-and-run-redis-in-docker/
 
 
+/////
+docker run -p 6379:6379 -it redis/redis-stack:latest
+/////
+
 docker pull redis:latest 
 docker run --net host --name redis-instance -dit redis
 docker exec -it redis-instance /bin/bash
